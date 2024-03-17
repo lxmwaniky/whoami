@@ -1,0 +1,27 @@
+:root {
+    --background-color: #2F4F4F;
+    --font-color: #F0FFFF;
+    --font-family: 'Roboto', sans-serif;
+    --font-size: 16px;
+    --line-height: 1.5;
+    --icon-color: #FF6347;
+    --icon-size: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
