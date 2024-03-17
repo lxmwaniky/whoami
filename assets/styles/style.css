@@ -135,6 +135,20 @@ nav {
     left: 50%;
 }
 
+.hero-text button {
+    border: none;
+    background-color: teal;
+    padding: 15px 32px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.hero-text a button{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 #about {
     padding: 2rem 0;
 }
