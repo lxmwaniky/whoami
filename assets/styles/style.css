@@ -35,3 +35,7 @@
     margin: 0;
 }
 
+.services-content {
+    display: none;
+    position: absolute;
+}
