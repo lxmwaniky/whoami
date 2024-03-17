@@ -127,6 +127,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 5rem;
 }
 
 .hero-text {
@@ -161,3 +162,31 @@ nav {
     padding: 0 2rem;
 }
 
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.skill {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.skill h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.skill p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #666;
+}
