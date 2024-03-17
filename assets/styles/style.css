@@ -67,11 +67,6 @@ nav {
     font-size: 17px;
 }
 
-.active {
-    background-color: #007bff;
-    color: white;
-}
-
 .services {
     float: left;
     overflow: hidden;
@@ -140,11 +135,11 @@ nav {
     left: 50%;
 }
 
-.about {
+#about {
     padding: 2rem 0;
 }
 
-.about h1 {
+#about h2 {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 36px;
@@ -195,4 +190,35 @@ nav {
 
 .skill p {
     font-size: 16px;
+}
+
+#blog {
+    padding: 2rem 0;
+}
+
+#blog h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 36px;
+}
+
+#blog p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-post {
+    flex: 1;
+    padding: 0 2rem;
+}
+
+.blog-post iframe {
+    object-fit: cover;
 }
