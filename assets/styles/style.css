@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif, 'Poppins';
+    font-family: 'Roboto', 'Poppins', sans-serif;
     background-color: grey;
     background-image: url('/assets/images/background.jpg');
     background-size: cover;
@@ -63,31 +63,26 @@ header {
     color: #f1c40f;
 }
 
-.dropdown {
-    position: relative; /* Enable positioning of dropdown content */
-    display: inline-block; /* Allow the dropdown to flow inline */
-}
-
 .dropdown-content {
-    display: none; /* Hide the dropdown content initially */
-    position: absolute; /* Position the dropdown content relative to the dropdown button */
-    background-color: #f1f1f1; /* Set background color for the dropdown */
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add a slight shadow */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block; /* Show the dropdown content on hover */
+    display: block;
 }
 
 .dropdown-content a {
-    color: black; /* Set color for dropdown links */
-    padding: 12px 16px; /* Add padding for dropdown links */
-    text-decoration: none; /* Remove underline from dropdown links */
-    display: block; /* Make dropdown links behave like block elements */
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd; /* Change background color on hover for dropdown links*/
+    background-color: #ddd;
 }
