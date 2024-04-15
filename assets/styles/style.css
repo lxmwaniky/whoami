@@ -90,6 +90,10 @@ span {
 
 /* Help me fix the DropDown Issue */
 
+main {
+    
+}
+
 .hero {
   display: flex;
   justify-content: center;
@@ -113,19 +117,61 @@ span {
 }
 
 .hero-content .cv {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    color: aliceblue;
-    font-size: 1.2rem;
-    font-weight: 500;
-    text-decoration: none;
-    border-radius: 10px;
-    border-style: ridge;
-    border-color: #f1c40f;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: #f1c40f;
 }
 
 .hero-content .cv a {
-    text-decoration: none;
-    color: burlywood;
+  text-decoration: none;
+  color: burlywood;
+}
+
+.hero-content .cv a:hover {
+  color: #f1c40f;
+}
+
+/* My Picture */
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic img {
+    height: 400px;
+    border-radius: 50% 70%;
+}
+
+/* Overview */
+.about {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about .overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about .overview p {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
