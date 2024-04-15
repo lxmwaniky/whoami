@@ -156,7 +156,7 @@ span {
 }
 
 .about h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -168,6 +168,8 @@ span {
 }
 
 .about .overview p {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 390;
 }
+
+/* Achievements */
