@@ -12,6 +12,7 @@ body {
   background-image: url("/assets/images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: aliceblue;
 }
 
@@ -173,3 +174,40 @@ span {
 }
 
 /* Achievements */
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Achievement */
+.achievement {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+/* Position */
+.position {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Timeline */
+.timeline {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.description {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.description li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
