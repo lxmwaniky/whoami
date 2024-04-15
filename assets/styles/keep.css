@@ -35,12 +35,6 @@ header {
     text-decoration: none;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .navbar .navlinks {
     overflow: hidden;
     display: flex;
@@ -63,31 +57,7 @@ header {
     color: #f1c40f;
 }
 
-.dropdown {
-    position: relative; /* Enable positioning of dropdown content */
-    display: inline-block; /* Allow the dropdown to flow inline */
-}
-
-.dropdown-content {
-    display: none; /* Hide the dropdown content initially */
-    position: absolute; /* Position the dropdown content relative to the dropdown button */
-    background-color: #f1f1f1; /* Set background color for the dropdown */
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add a slight shadow */
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block; /* Show the dropdown content on hover */
-}
-
-.dropdown-content a {
-    color: black; /* Set color for dropdown links */
-    padding: 12px 16px; /* Add padding for dropdown links */
-    text-decoration: none; /* Remove underline from dropdown links */
-    display: block; /* Make dropdown links behave like block elements */
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd; /* Change background color on hover for dropdown links*/
+#about {
+    float: left;
+    overflow: hidden;
 }
