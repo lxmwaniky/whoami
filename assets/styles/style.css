@@ -50,3 +50,7 @@ header .navbar .navlinks a {
     text-decoration: none;
     margin: 0 20px;
 }
+
+header .navbar .navlinks a:hover {
+    color: #f1c40f;
+}
