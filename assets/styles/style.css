@@ -176,6 +176,7 @@ span {
 /* Achievements */
 .achievements {
     margin-top: 30px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     gap: 20px;
@@ -207,4 +208,60 @@ span {
 .description li {
     margin-bottom: 5px;
     line-height: 1.5;
+}
+
+/* Projects Section */
+.projects {
+  display: flex;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+  scrollbar-width: none; /* Hide scrollbar */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  white-space: nowrap; /* Prevent line breaks */
+  padding-bottom: 20px; /* Add some bottom padding for better aesthetics */
+}
+
+/* Individual Project */
+.project {
+  flex: 0 0 auto; /* Prevent flex items from growing */
+  margin-right: 20px; /* Add spacing between projects */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  min-width: 300px; /* Set minimum width for each project */
+}
+
+/* Project Name */
+.project-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Project Details */
+.project-details {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Project Tools */
+.project-tools {
+  margin-bottom: 10px;
+}
+
+/* Project Links */
+.project-links a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+  color: #f1c40f;
+}
+
+/* Hide scrollbar for Firefox */
+.projects::-webkit-scrollbar {
+  display: none;
 }
