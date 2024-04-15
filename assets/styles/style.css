@@ -210,27 +210,25 @@ span {
     line-height: 1.5;
 }
 
-/* Projects Section */
+/* Projects */
 .projects {
-  white-space: nowrap; /* Prevent line breaks */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
-  scrollbar-width: none; /* Hide scrollbar for Firefox */
-  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-/* Individual Project */
 .project {
-  display: inline-block; /* Display projects in a row */
-  margin-right: 20px; /* Add spacing between projects */
+  display: inline-block;
+  margin-right: 20px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
-  min-width: 300px; /* Set minimum width for each project */
+  min-width: 300px;
 }
 
-/* Project Name */
 .project-name {
   font-size: 1.5rem;
   font-weight: bold;
@@ -238,18 +236,15 @@ span {
   margin-bottom: 10px;
 }
 
-/* Project Details */
 .project-details {
   color: #777;
   margin-bottom: 10px;
 }
 
-/* Project Tools */
 .project-tools {
   margin-bottom: 10px;
 }
 
-/* Project Links */
 .project-links a {
   color: #333;
   text-decoration: none;
@@ -260,7 +255,6 @@ span {
   color: #f1c40f;
 }
 
-/* Hide scrollbar for Chrome, Safari, and Opera */
 .projects::-webkit-scrollbar {
   display: none;
 }
